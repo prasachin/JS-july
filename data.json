@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com"
+    }
+  ],
+  "adresses": [
+    {
+      "userId": 1,
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345"
+    },
+    {
+      "userId": 2,
+      "street": "456 Oak Ave",
+      "city": "Othertown",
+      "state": "NY",
+      "zip": "67890"
+    }
+  ]
+}

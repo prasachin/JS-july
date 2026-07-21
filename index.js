@@ -273,3 +273,45 @@
 
 // console.log(Object.getPrototypeOf(cat));
 // console.log(cat.type);
+
+// let user = {};
+// user.name = "John";
+// user.password = "1234";
+
+// console.log(user.name);
+
+// user = JSON.stringify(user);
+
+// console.log(user.name);
+
+// user = JSON.parse(user);
+
+// console.log(user.name);
+
+// let user = {
+//   name: "John",
+//   password: "1234",
+//   //   greet: function () {
+//   //     console.log("Hey I am " + this.name);
+//   //   },
+//   //   age: undefined,
+// };
+
+// Object.defineProperty(user, "age", {
+//   value: 30,
+//   writable: true,
+//   enumerable: false,
+//   configurable: true,
+// });
+
+// // user.greet();
+// console.log(user);
+// user = JSON.stringify(user);
+// user = JSON.parse(user);
+// console.log(user);
+// console.log(user.age);
+
+// let a = {};
+// a.self = a;
+
+// JSON.stringify(a);
