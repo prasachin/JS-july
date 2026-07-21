@@ -315,3 +315,64 @@
 // a.self = a;
 
 // JSON.stringify(a);
+
+// DOM Manupulations
+
+// let btn = document.getElementById("btn");
+// btn.classList.add("btn2");
+
+// let btn = document.getElementsByClassName("btnClass");
+// console.log(btn);
+
+// btn.forEach((b) => {
+//   console.log(b);
+// });
+
+// let el = document.getElementsByTagName('h1');
+// console.log(el);
+
+// let el = document.querySelectorAll(".btnClass");
+// console.log(el);
+
+// el.forEach((b) => {
+//   console.log(b);
+// });
+//
+// let el = document.getElementById("btn");
+
+// el.innerHTML = "<strong>I am strong tag</strong>";
+
+// el.textContent = "<strong>I am strong tag</strong>";
+
+// console.log(el);
+
+// let el = document.getElementById("btn");
+
+// el.setAttribute("xyz", "1234");
+
+// console.log(el.getAttribute("xyz"));
+// console.log(el);
+// el.removeAttribute("xyz");
+
+// console.log(el.getAttribute("xyz"));
+
+// let el = document.getElementById("title");
+// el.style.backgroundColor = "green";
+// el.style.fontSize = "30px";
+// el.style.color = "white";
+// console.log(el);
+
+// let newel = document.createElement("div");
+// console.log(newel);
+// newel.setAttribute("id", "newel");
+// newel.textContent = "Hey I am a new element";
+// document.body.appendChild(newel);
+
+// let el = document.querySelectorAll("#newel");
+// console.log(el);
+
+// for (let i = 0; i < 1000; i++) {
+//   let newel = document.createElement("div");
+//   newel.textContent = "Hey I am a new element";
+//   document.body.appendChild(newel);
+// }
