@@ -376,3 +376,37 @@
 //   newel.textContent = "Hey I am a new element";
 //   document.body.appendChild(newel);
 // }
+
+// let btn = document.getElementById("btn");
+// console.log(btn);
+
+// let handleClick = () => {
+//   console.log("Hey I am clicked");
+//   let header = document.getElementById("title");
+//   header.style.backgroundColor = "green";
+//   header.style.color = "white";
+// };
+
+// btn.addEventListener("click", handleClick);
+
+// let btn = document.getElementById("btn");
+// btn.addEventListener("click", function (event) {
+//   //   console.log("Hey I am clicked");
+//   console.log(event);
+// });
+
+// let inputField = document.getElementById("input");
+
+// inputField.addEventListener("input", function (event) {
+//   console.log(event.target.value);
+// });
+
+// let btn = document.getElementById("btn");
+// btn.addEventListener(
+//   "click",
+//   function (event) {
+//     console.log("Hey I am clicked");
+//     //   console.log(event);
+//   },
+//   true,  
+// );
